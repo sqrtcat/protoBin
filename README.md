@@ -145,7 +145,7 @@ try {
 
 ### 用户实体类
 
-```
+```php
 <?php
 /**
  * @author sqrtcat 32448732@qq.com
@@ -184,39 +184,12 @@ class UserEntity extends Message
     /**
      * @return mixed
      */
-    public function getAccount()
-    {
-        return $this->account;
-    }
-
-    /**
-     * @param mixed $account
-     */
-    public function setAccount($account)
-    {
-        $this->account = $account;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getAge()
-    {
-        return $this->age;
-    }
-
-    /**
-     * @param mixed $age
-     */
-    public function setAge($age)
-    {
-        $this->age = $age;
-    }
+    //propertySetterGetterFuncCluster
 }
 
 ```
 ### 用户列表消息类
-```
+```php
 <?php
 /**
  * @author sqrtcat 32448732@qq.com
@@ -292,130 +265,7 @@ class UsersResponse extends Message
     /**
      * @return mixed
      */
-    public function getErr()
-    {
-        return $this->err;
-    }
-
-    /**
-     * @param mixed $err
-     */
-    public function setErr($err)
-    {
-        $this->err = $err;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getMsg()
-    {
-        return $this->msg;
-    }
-
-    /**
-     * @param mixed $msg
-     */
-    public function setMsg($msg)
-    {
-        $this->msg = $msg;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getData()
-    {
-        return $this->data;
-    }
-
-    /**
-     * @param mixed $data
-     */
-    public function setData($data)
-    {
-        $this->data = $data;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdArr()
-    {
-        return $this->idArr;
-    }
-
-    /**
-     * @param mixed $idArr
-     */
-    public function setIdArr($idArr)
-    {
-        $this->idArr = $idArr;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getNameArr()
-    {
-        return $this->nameArr;
-    }
-
-    /**
-     * @param mixed $nameArr
-     */
-    public function setNameArr($nameArr)
-    {
-        $this->nameArr = $nameArr;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getBoolArr()
-    {
-        return $this->boolArr;
-    }
-
-    /**
-     * @param mixed $boolArr
-     */
-    public function setBoolArr($boolArr)
-    {
-        $this->boolArr = $boolArr;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFloatArr()
-    {
-        return $this->floatArr;
-    }
-
-    /**
-     * @param mixed $floatArr
-     */
-    public function setFloatArr($floatArr)
-    {
-        $this->floatArr = $floatArr;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDoubleArr()
-    {
-        return $this->doubleArr;
-    }
-
-    /**
-     * @param mixed $doubleArr
-     */
-    public function setDoubleArr($doubleArr)
-    {
-        $this->doubleArr = $doubleArr;
-    }
+    //propertySetterGetterFuncCluster
 }
 ```
 ### 打包发送
@@ -462,7 +312,7 @@ try {
 }
 ```
 ### 对比/结果
-```
+```bash
 dataForm:account=sqrtcat&password=123456&age=29
 dataLen:38
 
