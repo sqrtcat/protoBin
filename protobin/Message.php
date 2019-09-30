@@ -361,3 +361,4 @@ abstract class Message
         return true;
     }
 }
+
