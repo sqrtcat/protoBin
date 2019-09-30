@@ -1,11 +1,11 @@
 <?php
 /**
- * @author sqrtcat 3244873@qq.com
+ * @author sqrtcat 32448732@qq.com
  * @version 2019-9-29
  * 协议支持的数据类型
  */
 
-namespace Protocol;
+namespace ProtoBin;
 
 /**
  * 协议数据类型

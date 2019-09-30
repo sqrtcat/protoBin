@@ -5,8 +5,8 @@
  */
 namespace App;
 
-use Protocol\Message;
-use Protocol\Type;
+use ProtoBin\Message;
+use ProtoBin\Type;
 
 /**
  * Class RegisterRequest
@@ -18,7 +18,7 @@ class RegisterRequest extends Message
     public $password;
     public $age;
 
-    // 参数项位序 accountBin passwordBin ageBin
+    // 消息体包含的字段
     public static $paramNameMapping = [
         0 => 'account',
         1 => 'password',

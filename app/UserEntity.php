@@ -7,8 +7,8 @@
 
 namespace App;
 
-use Protocol\Message;
-use Protocol\Type;
+use ProtoBin\Message;
+use ProtoBin\Type;
 
 /**
  * Class RegisterRequest

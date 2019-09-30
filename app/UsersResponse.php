@@ -5,13 +5,13 @@
  */
 namespace App;
 
-use Protocol\Message;
-use Protocol\Type;
+use ProtoBin\Message;
+use ProtoBin\Type;
 
 /**
  * 集成协议消息类
  * 定义包含的数据项 public foo
- * 定义数据项的位序 指定就好 类似 protobuf 的 string name = 1
+ * 定义数据项的位序 指定就好 类似 protoBuf 的 string name = 1
  * 定义数据项的类型
  * 定义数组类型的数据项的成员类型  repeated string names = 2
  * 客户端/服务端引用同一套消息类

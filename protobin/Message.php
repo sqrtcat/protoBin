@@ -4,7 +4,7 @@
  * @version 2019-9-29
  * 协议消息类
  */
-namespace Protocol;
+namespace ProtoBin;
 
 use Exception;
 use ReflectionException;
