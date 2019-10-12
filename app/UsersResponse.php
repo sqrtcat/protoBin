@@ -47,7 +47,7 @@ class UsersResponse extends Message
 
     // 数据项的类型
     public static $paramProtocolTypeMapping = [
-        'err'       => Type::TYPE_TINYINT,
+        'err'       => Type::TYPE_INT16,
         'msg'       => Type::TYPE_STRING,
         'data'      => Type::TYPE_REPEATED,
         'idArr'     => Type::TYPE_REPEATED,
